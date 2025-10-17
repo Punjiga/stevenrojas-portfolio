@@ -1114,7 +1114,7 @@ footer nav{
     }
 }
 /* MOBILE */
-@media screen and (max-width: 426px){
+@media screen and (max-width: 650px){
     .colsContainer{
         gap: 30px;
         flex-direction: column;
