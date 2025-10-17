@@ -991,6 +991,15 @@ footer nav{
 }
 /* TABLET */
 @media screen and (max-width: 768px){
+    .colsContainer{
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .col3Header, .col1Header{
+        padding-top: 0px;
+    }
     h1{
         font-size: 25px;
     }
@@ -999,12 +1008,6 @@ footer nav{
     }
     .col2Header img{
         height: 400px;
-    }
-    .col1Header{
-        padding-top: 50px;
-    }
-    .col3Header{
-        padding-top: 200px;
     }
     header nav *{
         transform: scale(0.95) !important;
